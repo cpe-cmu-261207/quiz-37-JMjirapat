@@ -24,7 +24,7 @@ export default function Comment(props) {
 						<div className="d-flex align-items-center gap-1">
 							<img src="/like.svg" width={20}></img>
 							<span className="text-muted">
-								{props.data.likeNum}
+								{props.data.likeNum} คน
 							</span>
 						</div>
 					)}
